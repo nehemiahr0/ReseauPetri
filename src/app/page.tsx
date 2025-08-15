@@ -1,6 +1,7 @@
 'use client';
 import { useState } from 'react';
 import PetriNet from '../components/PetriNet';
+import MatrixCalculator from "../components/MatriceCalcul";
 
 // Fonctions utilitaires
 function canFire(t: number, marking: number[]): boolean {
@@ -206,7 +207,7 @@ export default function Home() {
               </div>
               ))}
             </div>
-            
+            <MatrixCalculator marking={marking} history={history} />
             </div>
         </div>
       </div>
