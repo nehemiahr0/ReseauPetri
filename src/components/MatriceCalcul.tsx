@@ -2,7 +2,7 @@
 import { useState, useEffect } from 'react';
 
 export default function MatrixCalculator({ marking, history }) {
-  // Matrices du réseau de Petri basées sur votre code
+  // Matrices du réseau de Petri
   const Pre = [
     [0, 1, 0], // P1: T1=0, T2=1, T3=0
     [0, 1, 0], // P2: T1=0, T2=1, T3=0
